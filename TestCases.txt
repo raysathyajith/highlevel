@@ -1,0 +1,27 @@
+1. Verify meeting can be scheduled only with members whom are chosen while creating a calendar.
+2. Verify the slot durations available are according to the 'Slot duration' field and Intervals between slots are according to 'Slot interval' field
+3. Verify there is a buffer duration between each appointment as configured in calendar settings.
+4. Verify whether the appointments available for each slot is according to the 'Appointments per slot' in configurations.
+5. Verify whether the appointments available for each day is according to the 'Appointments per day' in configurations.
+6. Verify whether the user can schedule after the minimum scheduling notice as per the calendar configurations.
+7. Verify whether the user can only schedule only during the office hours as per configurations.
+8. Verify whether the user can reschedule using "reschedule link" after scheduling if 'Allow Reschedule' is marked.
+9. Verify whether the user can cancel using "cancellation link" after scheduling if 'Allow Cancellation' is marked.
+10. Verify whether the particular team member gets mail notification if 'Send appointment alert emails to the assigned team member' is marked.
+11. Verify whether the custom message is shown after scheduling a appointment if "Custom 'Thank You' message" is clicked and message is entered.
+12. Verify whether the page is redirected to the configured URL if 'Form Submit Redirect URL' is selected and URL is configured.
+13. Verify whether the calendar auto confirms the appointment if 'Let the calendar auto confirm my appointment' is marked.
+14. Verify whether the appointment is scheduled to the member who has high priority even when all other members are available.
+15. Verify whether the appointment is scheduled to the member who has medium priority if all other high priority members are busy.
+16. Verify whether the appointment is scheduled to the member who has low priority only if all other high priority and medium priority are busy.
+17. Verify whether the appointment is scheduled to any of the member if all the members are in same priority.
+18. Verify whether the appointment is scheduled based on the meeting location set for the corresponding team members in calendar configuration.
+19. Verify the meeting can be scheduled after entering our information such as Name, Phone and Email.
+20. Verify after scheduling the appointment, the duration, location and Date & Time & Time zone is displayed.
+21. Verify if 'Add to Google calendar' is clicked, then page redirects with all details of appointment is ready to create a calendar appointment in Google.
+22. Verify the time zone can be chosen of our choice while creating appointment.
+23. Verify if the reschedule link is clicked, the user can able to change the time zone and time slot
+24. Verify if 'Optimize for Equal Distribution' is selected, then the appointment is distributed among all the members equally.
+25. Verify if the different time zone is chosen while creating a appointment, then the appointment time should be converted to local time zone in application and should show in appointment report.
+26. Verify if blocked off time is configured for particular member then if any appointment cannot be scheduled to the particular member.
+27. Verify whether the appointment can be booked for a particular calendar and for a particular team member.
